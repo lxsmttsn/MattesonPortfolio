@@ -40,14 +40,14 @@ figcaption {
 }
 
 ol {
-    background: #778899;
     padding: 40px;
-    font-size: 20px;
     opacity: 20%
+    font-family: font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 ol li {
-    background: #ADD8E6;
     padding: 5px;
     margin-left: 35px;
 }
@@ -93,6 +93,14 @@ input[type=submit] {
   font-weight: bold;
 }
 
+blockquote{
+  display:block;
+  padding: 5px 10px 5px 25px;
+  font-weight: bold;
+  font-size: 20px;
+  position:relative;
+}
+
 #my-container {
     position: absolute;
     background-image: url("Images/cubes.jpg");
@@ -102,6 +110,6 @@ input[type=submit] {
     height: 100%;
 }
 
-#firstparagraph {
-  text-align: center;
+#aboutcontainer {
+  background-color: #E0FFFF
 }
